@@ -5,9 +5,9 @@ cars
 -id: BIGINT - AUTOINCREMENT - UNIQUE - NOTNULL
 -marca: VARCHAR(15) - NOTNULL
 -modello: VARCHAR(50) - NOTNULL
--carburante:
--colore:
--carrozzeria (berlina, SUV, station wagon, coupé, cabriolet, ecc.):
+-carburante: VARCHAR(10) - NOTNULL
+-colore: VARCHAR(20) - NULL
+-carrozzeria (berlina, SUV, station wagon, coupé, cabriolet): VARCHAR(20) - NOTNULL
 -targa:
 -cilindrata:
 -potenza:
