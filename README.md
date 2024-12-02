@@ -2,7 +2,7 @@
 cars
 
 ## struttura della tabella cars
--id | BIGINT - AUTOINCREMENT - UNIQUE - NOTNULL
+-id | BIGINT - AUTOINCREMENT - PRIMARY_KEY (UNIQUE - NOTNULL)
 -marca | VARCHAR(15) - NOTNULL
 -modello | VARCHAR(50) - NOTNULL
 -carburante | VARCHAR(10) - NOTNULL
@@ -12,11 +12,12 @@ cars
 -cilindrata | SMALLINT - NOTNULL
 -potenza CV | SMALLINT - NOTNULL
 -potenza Kw | TINYINT - NULL
--porte |
--posti |
--anno di immatricolazione |
--prezzo |
+-porte | TINYINT - NOTNULL
+-posti | TINYINT - NOTNULL
+-anno di immatricolazione | YEAR - NOTNULL
+-prezzo | MEDIUMINT - NOTNULL
 -neopatentati |
 -nuova |
 -usata |
 -km percorsi |
+-descrizione | TEXT(300) - NULL
