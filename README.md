@@ -16,8 +16,8 @@ cars
 -posti | TINYINT - NOTNULL
 -anno di immatricolazione | YEAR - NOTNULL
 -prezzo | MEDIUMINT - NOTNULL
--neopatentati |
--nuova |
--usata |
--km percorsi |
+-neopatentati | TINYINT - NOTNULL
+-nuova | TINYINT - NOTNULL
+-usata | TINYINT - NOTNULL
+-km percorsi | MEDIUMINT - NOTNULL - DEFAULT(0)
 -descrizione | TEXT(300) - NULL
