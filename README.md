@@ -6,7 +6,16 @@ cars
 -marca
 -modello
 -carburante
+-colore
+-carrozzeria (berlina, SUV, station wagon, coupé, cabriolet, ecc.)
 -targa
 -cilindrata
+-potenza
 -porte
--anno di produzione
+-posti
+-anno di immatricolazione
+-prezzo
+-neopatentati
+-nuova
+-usata
+-km percorsi
